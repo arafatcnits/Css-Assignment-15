@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "DM Serif Display";
+}
+.background_img {
+    background-image: url(../img/23ea2fc5307fc0bd9536bb7baeaa16be.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 1420px;
+    margin: auto;
+}
+.nav_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    left: 0;
+}
+
+.nav_items li i {
+    padding: 0px 0px 0px 5px;
+}
+.nav_items ul{
+    list-style: none;
+    display: flex;
+}
+.nav_items ul li{
+    margin: 30px 25px;
+}
+.nav_items ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+    padding: 10px 0px;   
+}
+.nav_items ul li a:hover{
+color: blue; 
+}
+.nav_items ul li:hover .dropdown_manu{
+    display: block;
+}
+.dropdown_manu {
+    display: none;
+    height: 150px;
+    position: absolute;
+    top: 65px;
+    width: 100px;
+    z-index: 999;
+    background: none;
+    border: 1px solid black;
+    border: none;
+    background: black;
+}
+.dropdown_manu ul {
+    display: block;
+}
+.dropdown_manu ul li{
+margin: 0px 0px 0px 8px;
+}
+.dropdown_manu ul li a {
+    display: inline-block;
+    color: blueviolet;
+}
+.nav_items ul li:hover .dropdown_manu_1{
+    display: block;
+}
+.dropdown_manu_1 {
+    display: none;
+    height: 150px;
+    position: absolute;
+    top: 65px;
+    width: 130px;
+    z-index: 999;
+    background: none;
+    border: 1px solid black;
+    background: black;
+    border: none;
+}
+.dropdown_manu_1 ul {
+    display: block;
+}
+.dropdown_manu_1 ul li{
+margin: 0px 0px 0px 8px;
+}
+.dropdown_manu_1 ul li a {
+    display: inline-block;
+    color: blueviolet;
+}
+.nav_btn button {
+    padding: 8px 140px 8px 10px;
+}
+.nav_btn a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav_btn i {
+    padding-right: 10px;
+}
+.hight_pan {
+    padding-right: 10px;
+    font-size: 51px;
+}
+.hero_texts {
+    padding: 0px 0px 60px 0px;
+}
+.hero_texts h1{
+    text-align: center;
+    color: blueviolet;
+    padding: 120px 0px 10px 0px;
+    font-size: 51px;
+}
+.hero_texts h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 51px;
+    padding: 0px 68px 20px 0px;
+}
+.hero_texts p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0px 0px 0px 65px;
+}
+.text {
+    padding-right: 180px;
+}
+button.button {
+    background: transparent;
+}
+.button {
+    border-radius: 50px;
+    border: 1px solid blueviolet;
+}
+.hero_btn button:hover{
+    background: blueviolet;
+    border: none;
+}
+.button {
+    padding: 10px 0px 10px 0px;
+    margin-left: 10px;
+}
+.hero_btn {
+    margin: 20px 0px 90px 450px;
+}
+.button {
+    display: flex;
+}
+.btn_texts {
+    font-size: 16px;
+}
+.btn_texts a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px 0px 20px;
+}
+.btn_icons {
+    font-size: 20px;
+    align-items: center;
+}
+.btn_icons i {
+    padding: 0px 15px 0px 0px;
+}
+.main-footer {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 80px;
+    background: black;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.main-footer h4 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: rgb(242, 166, 18);
+}
+.main-footer h5 {
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(230, 230, 230);
+}
+.main-footer h5:hover {
+    color: blueviolet;
+    transition: 0.5s;
+}
+.Subscribe-news p {
+    font-size: 15px;
+    padding: 5px;
+    padding-top: 10px;
+    line-height: 1.9;
+    color: white;
+}
+.Subscribe-news input{
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.Subscribe-now a {
+    text-decoration: none;
+    color: white;
+}
+.Subscribe-now button:hover {
+    background: black;
+}
+.Subscribe-now button{
+    padding: 10px 50px 10px 50px ;
+    border-radius: 10px;
+    background: rgb(255, 163, 0);
+    margin-top: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.open-hour {
+    padding: 0px 70px 0px 0px;
+}
+.nutras-section p span {
+    color: rgb(255, 163, 0);
+}
+.nutras-section span a {
+    color: rgb(255, 163, 0);
+}
+
